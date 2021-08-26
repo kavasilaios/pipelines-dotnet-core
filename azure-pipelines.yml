@@ -25,3 +25,4 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'AppDeploy'
+    publishLocation: 'Container'
